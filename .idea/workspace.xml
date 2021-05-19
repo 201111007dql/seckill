@@ -6,25 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="916158a1-7b9f-41a6-a3a2-a1f7711f62f2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/dql/seckill/service/impl/SeckillServiceImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/seckill_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/seckill_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seckill.iml" beforeDir="false" afterPath="$PROJECT_DIR$/seckill.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dql/seckill/dao/SeckillDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dql/seckill/dao/SeckillDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dql/seckill/service/SeckillService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dql/seckill/service/SeckillService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dql/seckill/service/impl/SeckillServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dql/seckill/service/impl/SeckillServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dql/seckill/web/SeckillController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dql/seckill/web/SeckillController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/SeckillDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/SeckillDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/dql/seckill/service/SeckillServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dql/seckill/service/SeckillServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dql/seckill/dao/SeckillDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dql/seckill/dao/SeckillDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dql/seckill/service/SeckillService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dql/seckill/service/SeckillService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dql/seckill/service/impl/SeckillServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dql/seckill/service/impl/SeckillServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/SeckillDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/SeckillDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/dql/seckill/service/SeckillServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/dql/seckill/service/SeckillServiceTest.class" afterDir="false" />
-    </list>
+    <list default="true" id="916158a1-7b9f-41a6-a3a2-a1f7711f62f2" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -670,7 +652,7 @@
       <workItem from="1621309485795" duration="9904000" />
       <workItem from="1621412756264" duration="4144000" />
       <workItem from="1621421320651" duration="2550000" />
-      <workItem from="1621429076728" duration="2791000" />
+      <workItem from="1621429076728" duration="3148000" />
     </task>
     <task id="LOCAL-00001" summary="初始化">
       <created>1621420413972</created>
@@ -715,7 +697,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="118506000" />
+    <option name="totallyTimeSpent" value="118863000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1563" height="845" extended-state="6" />
