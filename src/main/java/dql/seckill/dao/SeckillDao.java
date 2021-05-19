@@ -1,6 +1,6 @@
 package dql.seckill.dao;
 
-import com.sun.tracing.dtrace.ProviderAttributes;
+
 import dql.seckill.entity.Seckill;
 import org.apache.ibatis.annotations.Param;
 

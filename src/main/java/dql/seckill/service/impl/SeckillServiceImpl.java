@@ -12,6 +12,7 @@ import dql.seckill.exception.RepeatKillException;
 import dql.seckill.exception.SeckillCloseException;
 import dql.seckill.exception.SeckillException;
 import dql.seckill.service.SeckillService;
+import org.apache.commons.collections.MapUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -156,7 +157,21 @@ public class SeckillServiceImpl implements SeckillService {
         map.put("phone", userPhone);
         map.put("killTime", killTime);
         map.put("result", null);
-        seckillDao.killByProcedure(map);
-        return null;//TODO
+        //执行存储过程，result被复制
+        try {
+            seckillDao.killByProcedure(map);
+            //获取result
+            Integer result = MapUtils.getInteger(map, "result", -2);
+            if (result == 1) {
+                SuccessKilled sk = successKilledDao.queryByIdWithSeckill(seckillId, userPhone);
+                return new SeckillExecution(seckillId, SeckillStatEnum.SUCCESS, sk);
+            } else {
+                return new SeckillExecution(seckillId, SeckillStatEnum.stateOf(result));
+            }
+        } catch (Exception e) {
+            logger.error(e.getMessage(), e);
+            return new SeckillExecution(seckillId, SeckillStatEnum.INNER_ERROR);
+        }
+
     }
 }
