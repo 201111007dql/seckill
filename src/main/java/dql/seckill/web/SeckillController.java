@@ -18,6 +18,8 @@ import org.springframework.web.bind.annotation.*;
 import java.util.Date;
 import java.util.List;
 
+
+//秒杀Controller
 @Controller
 @RequestMapping("/seckill")//url:/模块/资源/{id}/细分 /seckill/list
 public class SeckillController {
